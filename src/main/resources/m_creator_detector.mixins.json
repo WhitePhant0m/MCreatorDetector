@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "dev.wp.m_creator_detector.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "plugin": "dev.wp.m_creator_detector.mixin.MixinPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
