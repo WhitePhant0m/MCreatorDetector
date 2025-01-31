@@ -69,6 +69,10 @@ public class MixinPlugin implements IMixinConfigPlugin {
         return modFileInfoList;
     }
 
+    public static List<String> getMcreatorMods() {
+        return MCREATOR_MODS;
+    }
+
     @Override
     public void onLoad(String s) {
 
